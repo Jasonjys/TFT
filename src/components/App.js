@@ -17,6 +17,14 @@ const characterWrapper = css`
   }
 `
 
+const hoverInfo = css`
+  display: flex;
+`
+
+const characterName = css`
+  text-align: center;
+`
+
 function App() {
   return (
     <>
@@ -24,20 +32,34 @@ function App() {
         <img css={characterIconImg} src='https://rerollcdn.com/characters/Swain.png' alt='swain' />
       </div>
 
-      <div className='hover-info'>
+      <div css={hoverInfo}>
         <div className='charcter-avator'>
-          <img className='character-icon' src='https://rerollcdn.com/characters/Swain.png' alt='swain' />
-          <p className='character-name'>swan</p>
+          <img css={characterIconImg} src='https://rerollcdn.com/characters/Swain.png' alt='swain' />
+          <p css={characterName}>swan</p>
         </div>
-        <div className='character-origin-class'>
-          <div className='icon'>
+        <div css={css`
+          display: flex;
+          flex-direction: column;
+          margin-left: 10px;
+        `}>
+          <div css={css`
+            display: flex;
+          `}>
             <img src='https://rerollcdn.com/icons/demon.png' />
-            <img src='https://rerollcdn.com/icons/demon.png' />
-            <img src='https://rerollcdn.com/icons/demon.png' />
-          </div>
-          <div>
             <p>Imperial</p>
+          </div>
+
+          <div css={css`
+            display: flex;
+          `}>
+            <img src='https://rerollcdn.com/icons/demon.png' />
             <p>Demon</p>
+          </div>
+
+          <div css={css`
+            display: flex;
+          `}>
+            <img src='https://rerollcdn.com/icons/demon.png' />
             <p>Shapeshifter</p>
           </div>
         </div>
