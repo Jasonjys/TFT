@@ -1,10 +1,15 @@
 import React from 'react';
-import Champion from './Champion'
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core'
+
+import ItemsPopup from './ItemsPopup'
+import Champion from './Champion';
 
 function App() {
   return (
     <>
-      <Champion />
+      <Champion/>
+      <ItemsPopup/>
     </>
   );
 }
