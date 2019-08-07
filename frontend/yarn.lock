@@ -7821,7 +7821,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.6.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8109,6 +8109,11 @@ react@^16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
+
+reactjs-popup@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/reactjs-popup/-/reactjs-popup-1.4.2.tgz#7ef29df2d87e31ffb0a9c6aae909cbd65d786be7"
+  integrity sha512-fDwRnR00tEFHjJha1cC1sqfH4qc73jQfvcjiOv6/THTE6QQI2DAcdI03iMKYm0ar47MGDLBWXNpU0J8eT22rkA==
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
